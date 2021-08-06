@@ -1,7 +1,0 @@
-tensorflow==2.5 
-streamlit
-pillow
-pandas
-matplotlib
-numpy
-requests
