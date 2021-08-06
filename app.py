@@ -8,7 +8,6 @@ from PIL import Image
 import requests
 from io import BytesIO
 from PIL import Image
-from skimage import transform
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Location Image Classifier")
 st.text("Provide URL of Location Image for image classification")
