@@ -11,7 +11,7 @@ from PIL import Image
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Location Image Classifier")
 st.text("Provide URL of Location Image for image classification")
-st.text("Make sure you get the you url right so that the app will not produce an error and let it end with jpg")
+st.text("Make sure you get the url right so that the app will not produce an error and let it end with jpg")
 @st.cache(allow_output_mutation=True)
 def load_model():
   model = tf.keras.models.load_model('models/')
